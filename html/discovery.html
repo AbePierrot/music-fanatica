@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../css/StyleSheet.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="menu-container">
+      <nav id="mainPageList">
+        <ul>
+          <li>Discovery</li>
+          <li>Playlist</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="display-container">
+      <p>check this out bro </p>
+    </div>
+  </div>
+  <!-- test code to add new attributes-->
+  <button onclick="createPlaylist()"type="button" name="button"> create new playlist </button>
+  <script >
+  function createPlaylist(){
+    var newPlaylistName= document.createElement('p');
+    newPlaylistName.innerHTML= "new Playlist";
+    document.body.append(newPlaylistName);
+  }
+  </script>
+  <!--end of test code -->
+
+
+
+</body>
+</html>

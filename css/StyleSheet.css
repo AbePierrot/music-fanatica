@@ -1,0 +1,99 @@
+body,html{
+height: 100%;
+}
+
+.imageContainer {
+  width: 117vw;
+  height: 105vh;
+}
+
+#pageBackgroundImage {
+  opacity: 0.90;
+  background-image: url("../resource/img/signinimage.jpg");
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top bottom;
+}
+
+.sectionClass {
+  position: relative;
+}
+
+#backgroundImage{
+    /* background image link*/
+    background-image: url("../resource/img/signinimage.jpg");
+
+    /*full height of image*/
+    height: 100%;
+    width: 100%;
+
+    /* center and scale the image*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0.5;
+}
+
+#applicationName{
+  font-family: Great Fighter;
+  font-size: 10vh;
+  position: absolute;
+  top:10vh;
+  left: 33.2vw;
+
+
+}
+
+#applicationModel{
+  font-family:under the mud;
+  font-size: 4vh;
+  position: absolute;
+  top:35vh;
+  left: 22.3vw;
+
+}
+
+#button-container{
+  position: absolute;
+  top:75vh;
+  right: 37vw;
+  opacity: 0.7;
+  border-radius: 1`0px;
+}
+
+#button-box{
+  width: 27vw;
+  height: 9vh;
+
+}
+
+
+@font-face {
+  font-family: Great Fighter;
+  src: url("../resource/font/Great Fighter Demo.otf");
+}
+
+@font-face {
+  font-family:under the mud;
+  src:url("../resource/font/GoldUnderTheMud-Regular.otf");
+}
+
+/*discovery page css*/
+#mainPageList{
+  background-color: blue;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.display-container{
+  background-color: blue;
+}
+
+.menu-container{
+  background-color: yellow;
+}
